@@ -2,9 +2,9 @@
 
 ---
 
-This project aims to __classify news into 23 classes__ based on the text of headlines and their short descriptions using differnt machine learning algorithms.
+This project aims to detect the presence of mosquites and West Nile Virus which should depend on various factors present in the dataset.
 
-Number of samples taken into consideration while making this project is more than __250 thousand__, which is whole as raw data. 
+Number of samples taken into consideration while making this project is around __200 thousand__, which is whole as raw data. There are 13 features/ columns in the dataset.
 
 
 ---
@@ -30,8 +30,8 @@ Number of samples taken into consideration while making this project is more tha
 
 ### Data Files:
 
-1. __mosquito_data.csv__: Main data file extracted from kaggle (raw)
-2. __mosquito_data_part_2.csv__: Proccessed data __including__ short_description column
+1. __mosquito_data.csv__: Main data file (raw)
+2. __mosquito_data_part_2.csv__: Proccessed/ clean data 
 
 ---
 
@@ -39,8 +39,8 @@ For this project, I made 4 different jupyter notebooks which are described as fo
 
 ### Structure of Project:
 
-1. __EDAfile.ipynb__ : This file shows all the cleaning of the data and pre-processing. Feature engineering is also done to know more about the data and its features.
+1. __EDAfile.ipynb__ : This file shows all the cleaning of the data and pre-processing. Data wrangling, basic EDA and advanced EDA is done.
 
-2. __statsanalysis.ipynb__ : This file contains RANDOM FOREST algorithm being applied to pre-processed data. Data is imported semi-procced from EDAfile.ipynb and then tokenizing is done in this file.
+2. __statsanalysis.ipynb__ : statistical significance/ linear and logistic regression.
 
 ---
